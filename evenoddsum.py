@@ -2,7 +2,7 @@ a=input().split()
 fs=0
 o=0
 e=0
-for i in a:\
+for i in a:
     if '.' in i:
         i=float(i)
         fs+=i
